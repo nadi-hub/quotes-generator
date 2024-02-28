@@ -7,38 +7,44 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI quote generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the quote"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        You've gotta dance like there's nobody watching,
-        <br />
-        Love like you'll never be hurt
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/nadi-hub" target="_blank">Nadja Reisacher</a>
-      and is
-      <a href="https://github.com/nadi-hub/quotes-generator" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted
-      <a href="https://quote-generator-ai.netlify.app/" target="_blank"
-        >on Netlify.</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI quote generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the quote"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="quote">
+          You've gotta dance like there's nobody watching,
+          <br />
+          Love like you'll never be hurt
+        </div>
+      </main>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/nadi-hub" target="_blank"
+          >Nadja Reisacher</a
+        >
+        and is
+        <a href="https://github.com/nadi-hub/quotes-generator" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted
+        <a href="https://quote-generator-ai.netlify.app/" target="_blank"
+          >on Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
