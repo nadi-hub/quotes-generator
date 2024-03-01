@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>AI quote generator</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -12,7 +13,7 @@
         <h1>AI quote generator</h1>
       </header>
       <main>
-        <form>
+        <form id="quote-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the quote"
@@ -23,11 +24,7 @@
           />
           <input type="submit" class="button" />
         </form>
-        <div class="quote">
-          You've gotta dance like there's nobody watching,
-          <br />
-          Love like you'll never be hurt
-        </div>
+        <div class="quote" id="poem"></div>
       </main>
 
       <footer>
